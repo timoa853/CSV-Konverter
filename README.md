@@ -6,3 +6,5 @@ Mit setup.py kann man die GUI samt Funktionen auf sämtlichen Client-Rechnern ab
 
 Artikel.txt und die Bestellnummer BE-12345-24.csv sind Beispieldateien für Testzwecke
 batchfile.batch und VBS-file.vbs sorgen für das automatische Verschieben der CSV Datei in den Anzeige-Ordner der GUI.py
+
+Die XML-Datei ist der Output, welcher dann in die Warenwirtschaft importiert werden kann, sofern das Warenwirtschaftsprogramm Format OpenTrans 1.0  importieren kann
