@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ORDER_LIST>
+
+            <ORDER xmlns="http://www.opentrans.org/XMLSchema/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" type="standard">
+            <ORDER_HEADER>
+                <CONTROL_INFO>
+                    <GENERATOR_INFO>Shop 2.0</GENERATOR_INFO>
+                    <GENERATION_DATE>2024-11-11T11:15:50.607163</GENERATION_DATE>
+                </CONTROL_INFO>
+                <ORDER_INFO>
+                     <REMARK type = "order">Kontakt: E-Mail= mustermannmax@test.de Tel= 0127126875</REMARK>
+                     <REMARK type = "delivery_method">Delivery DAP</REMARK>
+                     <REMARK type = "shipping_fee">0</REMARK>
+                    <ORDER_ID>BE-12345-24</ORDER_ID>
+                    <ORDER_DATE>2024-11-11T11:15:50.607163</ORDER_DATE>
+                    <ORDER_PARTIES>
+                        <BUYER_PARTY>
+                            <PARTY>
+                                <ADDRESS>
+                                    <NAME>Musterkunde GmbH</NAME>
+                                    <NAME2>Mustermann</NAME2>
+                                    <NAME3>Max</NAME3>
+                                    <STREET>Muster Allee 34</STREET>
+                                    <ZIP>12388</ZIP>
+                                    <CITY>Muster</CITY>
+                                    <COUNTRY>DEU</COUNTRY>
+                                    <PHONE type="other">0127126875</PHONE>
+                                    <EMAIL>mustermannmax@test.de</EMAIL>
+                                </ADDRESS>
+                            </PARTY>
+                        </BUYER_PARTY>
+                        <INVOICE_PARTY>
+                            <PARTY>
+                                <ADDRESS>
+                                    <NAME>Musterfirma GmbH &amp; Co. KG</NAME>
+                                    <NAME2>Mustermann</NAME2>
+                                    <NAME3>Max</NAME3>
+                                    <STREET>Musterstrasse 17</STREET>
+                                    <ZIP>12345</ZIP>
+                                    <CITY>Musterstadt</CITY>
+                                    <COUNTRY>DE</COUNTRY>
+                                    <PHONE type="other">01234 / 56789</PHONE>
+                                    <EMAIL>purchase@musterfirma.de</EMAIL>
+                                </ADDRESS>
+                            </PARTY>
+                        </INVOICE_PARTY>
+                    </ORDER_PARTIES>
+                </ORDER_INFO>
+            </ORDER_HEADER><ORDER_ITEM_LIST>
+
+                <ORDER_ITEM>
+                    <LINE_ITEM_ID>1</LINE_ITEM_ID>
+                    <ARTICLE_ID>
+                        <SUPPLIER_AID>1234567 DINO</SUPPLIER_AID>
+                        <DESCRIPTION_SHORT>TESTARTIKEL (SCHWARZ)</DESCRIPTION_SHORT>
+                    </ARTICLE_ID>
+                    <QUANTITY>1</QUANTITY>
+                    <ORDER_UNIT>1</ORDER_UNIT>
+                    <ARTICLE_PRICE>
+                        <PRICE_AMOUNT>700.00</PRICE_AMOUNT>
+                        <PRICE_LINE_AMOUNT>700.00</PRICE_LINE_AMOUNT>
+                        <PRICE_CURRENCY>EUR</PRICE_CURRENCY>
+                    </ARTICLE_PRICE>
+                </ORDER_ITEM>
+                <ORDER_ITEM>
+                    <LINE_ITEM_ID>2</LINE_ITEM_ID>
+                    <ARTICLE_ID>
+                        <SUPPLIER_AID>LT00000 DINO</SUPPLIER_AID>
+                        <DESCRIPTION_SHORT>Bitte Liefertermin hinzufügen</DESCRIPTION_SHORT>
+                    </ARTICLE_ID>
+                    <QUANTITY>1</QUANTITY>
+                    <ORDER_UNIT>1</ORDER_UNIT>
+                    <ARTICLE_PRICE>
+                        <PRICE_AMOUNT>0.00</PRICE_AMOUNT>
+                        <PRICE_LINE_AMOUNT>0.00</PRICE_LINE_AMOUNT>
+                        <PRICE_CURRENCY>EUR</PRICE_CURRENCY>
+                    </ARTICLE_PRICE>
+                </ORDER_ITEM>
+                <ORDER_ITEM>
+                    <LINE_ITEM_ID>3</LINE_ITEM_ID>
+                    <ARTICLE_ID>
+                        <SUPPLIER_AID>1234567 DINO</SUPPLIER_AID>
+                        <DESCRIPTION_SHORT>TESTARTIKEL (SCHWARZ)</DESCRIPTION_SHORT>
+                    </ARTICLE_ID>
+                    <QUANTITY>1</QUANTITY>
+                    <ORDER_UNIT>1</ORDER_UNIT>
+                    <ARTICLE_PRICE>
+                        <PRICE_AMOUNT>700.00</PRICE_AMOUNT>
+                        <PRICE_LINE_AMOUNT>700.00</PRICE_LINE_AMOUNT>
+                        <PRICE_CURRENCY>EUR</PRICE_CURRENCY>
+                    </ARTICLE_PRICE>
+                </ORDER_ITEM>
+                <ORDER_ITEM>
+                    <LINE_ITEM_ID>4</LINE_ITEM_ID>
+                    <ARTICLE_ID>
+                        <SUPPLIER_AID>LT00000 DINO</SUPPLIER_AID>
+                        <DESCRIPTION_SHORT>Bitte Liefertermin hinzufügen</DESCRIPTION_SHORT>
+                    </ARTICLE_ID>
+                    <QUANTITY>1</QUANTITY>
+                    <ORDER_UNIT>1</ORDER_UNIT>
+                    <ARTICLE_PRICE>
+                        <PRICE_AMOUNT>0.00</PRICE_AMOUNT>
+                        <PRICE_LINE_AMOUNT>0.00</PRICE_LINE_AMOUNT>
+                        <PRICE_CURRENCY>EUR</PRICE_CURRENCY>
+                    </ARTICLE_PRICE>
+                </ORDER_ITEM>
+</ORDER_ITEM_LIST>
+</ORDER>
+</ORDER_LIST>
