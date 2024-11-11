@@ -9,7 +9,7 @@ import os
 class CSVFileHandler(FileSystemEventHandler):
     def __init__(self):
         super().__init__()
-        self.artikel_file_path = r"U:\Auswertung\artikel.txt"
+        self.artikel_file_path = r"C:\path\to\artikel.txt"
         self.artikel_df = self.load_artikel_data(self.artikel_file_path)
 
     def load_artikel_data(self, file_path):
@@ -69,7 +69,7 @@ class CSVFileHandler(FileSystemEventHandler):
                          dtype={'Quantity': int, 'ProductId': str, 'ReferenceNo': str, 'PhoneNo.': str})
 
         # Einlesen des Verfüg_xls Arbeitsblatts
-        verfug_df = pd.read_excel(r"U:\PREISLISTEN\2024\PREISLISTE DINO CARS 2024 - Master.xlsx",
+        verfug_df = pd.read_excel(r"C:\path\to\your\excelsheet",
                                   sheet_name="Verfüg_xls")
 
         # Vorprüfung auf "DINO" im 'ProductId'
@@ -220,12 +220,12 @@ class CSVFileHandler(FileSystemEventHandler):
                         <INVOICE_PARTY>
                             <PARTY>
                                 <ADDRESS>
-                                    <NAME>SPIEL-PREIS GmbH &amp; Co. KG</NAME>
-                                    <NAME2>SCHWANEWEDE</NAME2>
-                                    <NAME3>INGE</NAME3>
-                                    <STREET>AM BREITENSTOCK 8</STREET>
-                                    <ZIP>90559</ZIP>
-                                    <CITY>BURGTHANN/EZELSDORF</CITY>
+                                    <NAME>Musterfirma GmbH &amp; Co. KG</NAME>
+                                    <NAME2>Mustermann</NAME2>
+                                    <NAME3>Max</NAME3>
+                                    <STREET>Musterstrasse 17</STREET>
+                                    <ZIP>12345</ZIP>
+                                    <CITY>Musterstadt</CITY>
                                     <COUNTRY>DE</COUNTRY>
                                     <PHONE type="other">09188 / 99 99 00</PHONE>
                                     <EMAIL>presales@spiel-preis.de</EMAIL>
@@ -293,7 +293,7 @@ class CSVFileHandler(FileSystemEventHandler):
         )
 
         # Pfad zum Ordner, in dem die XML-Datei gespeichert werden soll
-        output_folder = r"U:\Workflows\Bestellimport\Spiel_Preis\XML_Output"
+        output_folder = r"C:\your\destination-folder\XML-file"
         os.makedirs(output_folder, exist_ok=True)
 
         # Bestimme den Namen der Ausgabedatei
@@ -305,7 +305,7 @@ class CSVFileHandler(FileSystemEventHandler):
 
 
 if __name__ == "__main__":
-    path = r"U:\Workflows\Bestellimport\Spiel_Preis\CSV_Reader"
+    path = r"C:\your\reading-folder\CSV-file"
     event_handler = CSVFileHandler()
     observer = Observer()
     observer.schedule(event_handler, path, recursive=False)
