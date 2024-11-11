@@ -1,6 +1,6 @@
 Konvertiert CSV Dateien mit dem vorgegebenen Format - siehe Datei "BE-12345-24.csv" - in eine XML Datei mit dem Format OpenTrans 1.0
 
-Die GUI.py (Graphical User Interface) ist das Frontend, welches ich mit dem TKinter erstellt habe.
+Die GUI.py (Graphical User Interface) ist das Frontend, welches ich mit dem Python TKinter erstellt habe.
 In der main.py befindet sich der Code zu den eigentlichen Hauptfunktionen.
 Mit setup.py kann man die GUI samt Funktionen auf sämtlichen Client-Rechnern abrufen und ausführen.
 
