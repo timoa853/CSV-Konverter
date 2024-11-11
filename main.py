@@ -227,8 +227,8 @@ class CSVFileHandler(FileSystemEventHandler):
                                     <ZIP>12345</ZIP>
                                     <CITY>Musterstadt</CITY>
                                     <COUNTRY>DE</COUNTRY>
-                                    <PHONE type="other">09188 / 99 99 00</PHONE>
-                                    <EMAIL>presales@spiel-preis.de</EMAIL>
+                                    <PHONE type="other">01234 / 56789</PHONE>
+                                    <EMAIL>purchase@musterfirma.de</EMAIL>
                                 </ADDRESS>
                             </PARTY>
                         </INVOICE_PARTY>
