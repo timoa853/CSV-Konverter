@@ -1,0 +1,3 @@
+﻿ReferenceNo,ProductId,Quantity,CompanyName,Surname,FirstName,Address,ZipCode,City,CountryId,PhoneNo.,Email
+BE-12345-24,1234567,1.00,Musterkunde GmbH,Mustermann,Max,Muster Allee 34,12388,Muster,DEU,0127126875,mustermannmax@test.de
+BE-12345-24,1234567,1.00,Musterkunde GmbH,Mustermann,Max,Muster Allee 34,12388,Muster,DEU,0127126875,mustermannmax@test.de
